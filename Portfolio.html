@@ -1,24 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Experiance</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
-    <h1>Portfolio</h1>
-    <button onclick="goToHome()">Home</button>
-    <button onclick="goToContact()">Contact</button>
-    <button onclick="goToPortfolio()">Portfolio</button>
-    <button onclick="goToProfile()">Profile</button>
+    <div class="maincontainer">
+        <!-- Sidebar -->
+        <div class="w3-sidebar sidebar w3-bar-block" style="width:20%;">
+            <div style="margin-top: 30%; text-align: center;">
+                <img class="profile container" src="./image/ProfileDay.jpg">
+                <h4>Pawaris Suea-aeim</h4>
+                <h6>System Engineer/IT Support</h6>
+            </div>
+            <div class="w3-bar-item text">
+                <button onclick="document.location='./index.html'" class="w3-bar-item w3-button buttonfade">
+                    <i class="fa fa-home icon w3-animate-right" style="font-size: 25px;"></i><a>Home</a>
+                </button>
+                <button onclick="document.location='./Portfolio.html'" class="w3-bar-item w3-button buttonfade">
+                    <i class="fa fa-file icon w3-animate-right" style="font-size: 20px;"></i><a>Portfolio</a>
+                </button>
+                <button onclick="document.location='./experiance.html'" class="w3-bar-item w3-button buttonfade">
+                    <i class="fa fa-edit icon w3-animate-right" style="font-size: 25px;"></i><a>Experiance</a>
+                </button>
+            </div>
+            <div class="textfootersidebar">
+                <a href="https://web.facebook.com/profile.php?id=100006235390790" class="fa fa-facebook"
+                    style="font-size: 30px;"></a>
+                <a href="https://www.youtube.com/channel/UChRwgbwyZU1eZFuqilV9bmg/featured" class="fa fa-youtube"
+                    style="font-size: 30px;"></a>
+                <a href="mailto:pawaris.sueaaeim@gmail.com" class="fa fa-google" style="font-size: 30px;"></a>
+                <a href="https://www.instagram.com/pleumqz/" class="fa fa-instagram" style="font-size: 30px;"></a>
+                <p>Create by Pawaris Suea-aeim</p>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <div style="margin-left:15%">
+            <div class="w3-container box text" style="padding-bottom: 5%;">
+                <h2>Portfolio</h2>
+                <div class="timeline" style="margin-top: 5%;">
+                    <div class="box">
+                        <h3>
+                            Educations
+                        </h3>
+                        <div class="container left">
+                            <div class="content">
+                                <h3>System Engineer/IT Support</h3>
+                                <h4>October 2021 - September 2022</h4>
+                                <pre>
+            Responsibility for Admin & Support.
+            • Maintain and monitoring IT regulation 
+            regarding IT security
+            • IT vendor management for project 
+            and maintenance. Responsibility for Network
+            • Manage plan and tasks of network 
+            and IT infrastructure team
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-
-    <script src="/js/JS.js"></script>
 </body>
 
 </html>
