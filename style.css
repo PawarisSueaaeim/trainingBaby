@@ -450,3 +450,11 @@ p {
 .card .content .foot .icon {
     font-size: 12px
 }
+
+.imagemodal {
+  width: 70%;
+  height: 300px;
+  border-radius: 10px;
+  margin: 5%;
+  
+}
