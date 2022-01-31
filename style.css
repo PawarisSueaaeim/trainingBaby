@@ -39,7 +39,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-
+   
 .sidebar {
   background-color: #aea79f;
   color: #ffe8df;
@@ -450,3 +450,5 @@ p {
 .card .content .foot .icon {
     font-size: 12px
 }
+
+/* //////////////////////// Responsive ////////////////////////////// */
