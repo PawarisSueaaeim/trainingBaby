@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.sidebar{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: #072227;
+    align-items: center;
+    padding: 20px;
+}
+.profilepic{
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+    
+}
+.myname{
+    text-align: center;
+    color: #fff;
+    height: auto;
+    font-weight: 500;
+}
+.sidebar ul{
+    margin-top: 20px;
+}
+.sidebar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px ;
+}
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.sidebar ul li a:hover{
+    color: #AEFEFF;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #AEFEFF;
+}
+.textfootersidebar {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+.fa {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    width: 50px;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .fa:hover {
+    color: #AEFEFF;
+    opacity: 1;
+    width: 60px;
+    transition: all 0.3s ease;
+  }
+  .content{
+      float: right;
+      width: 77.5%;
+      margin: 20px;
+      padding: 20px;
+  }

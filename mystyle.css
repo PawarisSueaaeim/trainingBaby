@@ -106,21 +106,23 @@ body{
     transition: all 0.3s ease;
     border-radius: 12px;
 }
-.sidebar ul li a:hover{
-    color: #072227;
-    background: #AEFEFF;
-    border-radius: 12px;
-}
-
 .sidebar ul li a i{
     height: 50px;
     min-width: 50px;
     line-height: 50px;
     text-align: center;
 }
+.sidebar ul li a:hover{
+    color: #072227;
+    background: #AEFEFF;
+    border-radius: 12px;
+}
+
+
 .content{
     width: 80%;
     margin: 20px;
+    padding: 0 50px 0 0 ;
     transition: all 0.3s ease;
     transform: translateX(240px);
     margin-top: 31px;
