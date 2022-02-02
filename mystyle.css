@@ -20,7 +20,7 @@ body{
     float: right;
     height: 25px;
     width: 40px;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -119,8 +119,7 @@ body{
     text-align: center;
 }
 .content{
-    /* width: auto;
-    padding-left: 240px; */
+    width: 80%;
     margin: 20px;
     transition: all 0.3s ease;
     transform: translateX(240px);
@@ -133,6 +132,7 @@ body{
 .content-full{
     transition: all 0.3s ease;
     transform: translateX(0px);
+    width: 90%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -141,5 +141,10 @@ body{
     }
     .content{
         transform: translateX(0px);
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        display: none;
     }
 }
