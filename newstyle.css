@@ -86,4 +86,7 @@
       width: 77.5%;
       margin: 20px;
       padding: 20px;
+      background-color: #35858B;
+      border-radius: 10px;
+      opacity: 0.5;
   }
