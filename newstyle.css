@@ -7,6 +7,7 @@
 }
 .sidebar{
     position: fixed;
+    min-width:240px ;
     width: 20%;
     height: 100%;
     background-color: #072227;
@@ -75,18 +76,100 @@
     transition: all 0.3s ease;
   }
   
-  .fa:hover {
-    color: #AEFEFF;
+  /* .fa:hover {
+    background: -webkit-linear-gradient(rgb(255, 0, 234), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    width: 60px;
+    transition: all 0.3s ease;
+  } */
+  
+  .fa-facebook:hover{
+    background: -webkit-linear-gradient(rgb(36, 38, 126), rgb(36, 38, 126));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    width: 60px;
+    transition: all 0.3s ease;
+  }
+  .fa-youtube:hover{
+    background: -webkit-linear-gradient(rgb(255, 133, 33), rgb(218, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    width: 60px;
+    transition: all 0.3s ease;
+  }
+  .fa-google:hover{
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(75, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    width: 60px;
+    transition: all 0.3s ease;
+  }
+  .fa-instagram:hover{
+    background: -webkit-linear-gradient(rgb(255, 0, 234), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     opacity: 1;
     width: 60px;
     transition: all 0.3s ease;
   }
   .content{
-      float: right;
-      width: 77.5%;
-      margin: 20px;
-      padding: 20px;
-      background-color: #35858B;
-      border-radius: 10px;
-      opacity: 0.5;
+    float: right;
+    width: 77.5%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #35858B;
+    border-radius: 10px;
+    clear: both;
   }
+  .sm-monitor{
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #072227;
+    font-weight: 800;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+  }
+  .container{
+    float: right;
+    height: 25px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.menulogo{
+    height: 3px;
+    width: 40px;
+    background-color: #072227 ;
+}
+.hidecontent{
+    display: none;
+}
+.sm-monitors{
+    display: none;
+}
+  @media only screen and (max-width: 1240px) {
+    .sidebar{
+        display: none;
+    }
+    .content{
+        float: none;
+        width: auto;
+        margin: 0 20px 20px 20px;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 1240px) {
+    .sm-monitor{
+        display: none;
+    }
+
+}
